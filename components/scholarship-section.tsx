@@ -8,7 +8,7 @@ export function ScholarshipSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
-            UDAAN SIGMA Scholarship & Admission Test
+            UDAAN SIGMA Scholarship-cum-Admission Test
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Unlock your potential with our scholarship program. Win exciting prizes and get up to 100% scholarship!

@@ -76,11 +76,11 @@ export function HeroSection() {
 
             <div className="mt-16 grid grid-cols-3 gap-8 text-center">
               <div className="animate-fade-in-up animation-delay-800 hover-scale">
-                <div className="text-3xl sm:text-4xl font-bold text-foreground">5000+</div>
+                <div className="text-3xl sm:text-4xl font-bold text-foreground">1500+</div>
                 <div className="mt-1 text-sm text-muted-foreground">Students Enrolled</div>
               </div>
               <div className="animate-fade-in-up animation-delay-1000 hover-scale">
-                <div className="text-3xl sm:text-4xl font-bold text-foreground">25+</div>
+                <div className="text-3xl sm:text-4xl font-bold text-foreground">15+</div>
                 <div className="mt-1 text-sm text-muted-foreground">Expert Faculty</div>
               </div>
               <div className="animate-fade-in-up animation-delay-1200 hover-scale">
