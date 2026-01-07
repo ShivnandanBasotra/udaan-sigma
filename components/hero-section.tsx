@@ -1,28 +1,10 @@
-"use client"
-
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
-import { useEffect, useRef } from "react"
+import { ImageParallax } from "./hero-section-image"
+
+
 
 export function HeroSection() {
-  const imageRef = useRef<HTMLDivElement>(null)
-
-  useEffect(() => {
-    const handleMouseMove = (e: MouseEvent) => {
-      if (!imageRef.current) return
-      const { clientX, clientY } = e
-      const { innerWidth, innerHeight } = window
-
-      const xPos = (clientX / innerWidth - 0.5) * 20
-      const yPos = (clientY / innerHeight - 0.5) * 20
-
-      imageRef.current.style.transform = `perspective(1000px) rotateY(${xPos}deg) rotateX(${-yPos}deg) scale3d(1.05, 1.05, 1.05)`
-    }
-
-    window.addEventListener("mousemove", handleMouseMove)
-    return () => window.removeEventListener("mousemove", handleMouseMove)
-  }, [])
-
   return (
     <section id="home" className="relative overflow-hidden bg-gradient-to-b from-background to-muted/20 py-20 sm:py-32">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -90,19 +72,7 @@ export function HeroSection() {
             </div>
           </div>
 
-          <div className="relative hidden lg:block">
-            <div
-              ref={imageRef}
-              className="aspect-square overflow-hidden rounded-2xl bg-muted transition-transform duration-300 ease-out shadow-2xl"
-              style={{ transformStyle: "preserve-3d" }}
-            >
-              <img
-                src="/diverse-indian-students-studying-together-in-moder.jpg"
-                alt="Confident Indian students in academic environment"
-                className="h-full w-full object-cover"
-              />
-            </div>
-          </div>
+          <ImageParallax/>
         </div>
       </div>
     </section>
