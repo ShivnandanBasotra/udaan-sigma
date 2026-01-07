@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Udaan Sigma",
-  description: "Premier Coaching Institute in Jammu(Vijaypur)",
+  title: "Udaan Sigma - Best IIT JEE Coaching in Jammu & Vijaypur",
+  description: "Udaan Sigma is a leading IIT JEE coaching institute in Jammu & Vijaypur. Trusted by local students for expert faculty, results and personal mentoring.",
 };
 
 export default function RootLayout({
