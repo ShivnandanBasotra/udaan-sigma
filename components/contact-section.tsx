@@ -21,6 +21,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Phone Numbers</h4>
+                  <p className="text-muted-foreground">9797979693</p>
                   <p className="text-muted-foreground">7780966332</p>
                   <p className="text-muted-foreground">9186162194</p>
                 </div>
@@ -37,6 +38,8 @@ export function ContactSection() {
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Email</h4>
                   <p className="text-muted-foreground">info@udaansigma.in</p>
+                  <p className="text-muted-foreground">admissions@udaansigma.in</p>
+                  <p className="text-muted-foreground">helpdesk@udaansigma.in</p>
                 </div>
               </div>
             </CardContent>
@@ -51,6 +54,7 @@ export function ContactSection() {
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Website</h4>
                   <p className="text-muted-foreground">www.udaansigma.com</p>
+                  <p className="text-muted-foreground">www.udaansigma.in</p>
                 </div>
               </div>
             </CardContent>

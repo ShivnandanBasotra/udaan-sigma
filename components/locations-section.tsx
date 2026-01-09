@@ -55,7 +55,7 @@ export function LocationsSection() {
           <div className="flex items-center gap-2">
             <Phone className="h-4 w-4 text-primary" />
             <a href="tel:7780966332" className="text-muted-foreground hover:text-primary transition-colors">
-              7780966332, 9186162194
+              9797979693, 7780966332, 9186162194
             </a>
           </div>
           <div className="flex items-center gap-2">

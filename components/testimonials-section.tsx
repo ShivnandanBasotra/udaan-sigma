@@ -7,15 +7,7 @@ import { useRef, useEffect } from "react"
 
 const testimonials = [
   {
-    name: "Rajesh Kumar",
-    role: "JEE Advanced Qualifier, Class 12",
-    avatar: "/indian-male-student-smiling-portrait.jpg",
-    content:
-      "UDAAN SIGMA's teaching methodology is exceptional. The faculty's dedication and regular tests helped me understand difficult concepts easily. The mentorship program guided me throughout my preparation journey.",
-    type: "Student",
-  },
-  {
-    name: "Priya Sharma",
+    name: "Amya Sharma",
     role: "NEET Qualifier, Class 12",
     avatar: "/indian-female-student-happy-portrait.jpg",
     content:
@@ -31,23 +23,7 @@ const testimonials = [
     type: "Parent",
   },
   {
-    name: "Vikram Singh",
-    role: "Foundation Student, Class 9",
-    avatar: "/indian-male-teenager-student-confident.jpg",
-    content:
-      "The Foundation course at UDAAN SIGMA built my concepts from scratch. Teachers make complex topics easy to understand. The safe and friendly atmosphere helps me focus on studies better.",
-    type: "Student",
-  },
-  {
-    name: "Mr. Rajendra Patel",
-    role: "Parent of Neha Patel (Class 11)",
-    avatar: "/indian-father.jpg",
-    content:
-      "UDAAN SIGMA provides excellent mentorship and individual attention to students. The result-oriented approach and experienced faculty give us confidence in our daughter's academic future.",
-    type: "Parent",
-  },
-  {
-    name: "Ananya Reddy",
+    name: "Ananya Sharma",
     role: "Olympiad Gold Medalist, Class 10",
     avatar: "/indian-female-student-glasses-smiling.jpg",
     content:

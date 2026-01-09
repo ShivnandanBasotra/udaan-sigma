@@ -22,7 +22,7 @@ export default function Home() {
       <CoursesSection />
       <ScholarshipSection />
       <WhyChooseSection/>
-      <ResultsSection/>
+      {/* <ResultsSection/> */}
       <TestimonialsSection />
       <LocationsSection />
       <RegistrationSection />

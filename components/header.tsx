@@ -52,12 +52,12 @@ export function Header() {
             >
               Scholarship
             </button>
-            <button
+            {/* <button
               onClick={() => scrollToSection("results")}
               className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
             >
               Results
-            </button>
+            </button> */}
             <button
               onClick={() => scrollToSection("contact")}
               className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"

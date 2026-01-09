@@ -31,7 +31,7 @@ export function RegistrationSection() {
 
                 <div className="text-center pt-4">
                   <p className="text-sm text-muted-foreground">
-                    Need help? Call us at <span className="font-semibold text-foreground">7780966332</span> or{" "}
+                    Need help? Call us at <span className="font-semibold text-foreground">9797979693</span> or{" "}<span className="font-semibold text-foreground">7780966332</span> or{" "}
                     <span className="font-semibold text-foreground">9186162194</span>
                   </p>
                 </div>

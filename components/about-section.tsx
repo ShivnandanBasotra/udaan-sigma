@@ -10,16 +10,18 @@ export function AboutSection() {
             <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl mb-6">
               About UDAAN SIGMA
             </h2>
+
             <p className="text-pretty text-lg text-muted-foreground leading-relaxed mb-6">
-              UDAAN SIGMA is India's premium academic coaching institute delivering disciplined, results-driven
-              education for IIT-JEE, NEET, Olympiad, and Foundation courses. With our tagline{" "}
-              <span className="font-semibold text-secondary">"Rise Beyond Limits"</span>, we empower students to unlock
-              their full potential and achieve academic excellence.
+              For years, parents from Samba and Kathua were compelled to send their children far away in search of quality
+              education—bearing heavy coaching fees, travel stress, hostel expenses, and still facing the absence of
+              one-to-one mentorship. Every parent carried the same fear: that their child would be lost in the crowd.
             </p>
+
             <p className="text-pretty text-lg text-muted-foreground leading-relaxed mb-8">
-              Our experienced faculty combines quality education with conceptual clarity, discipline, and personalized
-              mentorship. We don't just prepare students for exams—we shape future engineers, doctors, and leaders who
-              make meaningful contributions to society.
+              Udaan Sigma was formed with this pain in mind—to ensure that students can study close to home, in a safe and
+              disciplined environment, at an affordable cost, with personal attention and continuous guidance. Here,
+              every child is not just a roll number, but a responsibility—because your trust matters more than anything
+              else.
             </p>
 
             <div className="grid gap-6 sm:grid-cols-2">

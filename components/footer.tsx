@@ -40,11 +40,11 @@ export function Footer() {
                   Scholarship Test
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#results" className="text-muted-foreground hover:text-foreground transition-colors">
                   Results
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="#contact" className="text-muted-foreground hover:text-foreground transition-colors">
                   Contact Us
@@ -89,18 +89,28 @@ export function Footer() {
               <li className="flex items-start gap-2 text-muted-foreground">
                 <Phone className="h-4 w-4 mt-0.5 flex-shrink-0 text-primary" />
                 <div>
+                  <div>9797979693</div>
                   <div>7780966332</div>
                   <div>9186162194</div>
                 </div>
               </li>
-              <li className="flex items-center gap-2 text-muted-foreground">
-                <Mail className="h-4 w-4 flex-shrink-0 text-primary" />
-                <span>info@udaansigma.in</span>
+              <li className="flex items-start gap-2 text-muted-foreground">
+                <Mail className="h-4 w-4 mt-0.5 flex-shrink-0 text-primary" />
+                <div className="flex flex-col">
+                  <span>info@udaansigma.in</span>
+                  <span>admissions@udaansigma.in</span>
+                  <span>helpdesk@udaansigma.in</span>
+                </div>
               </li>
-              <li className="flex items-center gap-2 text-muted-foreground">
-                <Globe className="h-4 w-4 flex-shrink-0 text-primary" />
-                <span>www.udaansigma.com</span>
+
+              <li className="flex items-start gap-2 text-muted-foreground">
+                <Globe className="h-4 w-4 mt-0.5 flex-shrink-0 text-primary" />
+                <div className="flex flex-col">
+                  <span>www.udaansigma.com</span>
+                  <span>www.udaansigma.in</span>
+                </div>
               </li>
+
             </ul>
           </div>
         </div>
