@@ -6,9 +6,9 @@ import { Header } from "@/components/header";
 import { HeroSection } from "@/components/hero-section";
 import { LocationsSection } from "@/components/locations-section";
 import { RegistrationSection } from "@/components/registration-section";
-import { ResultsSection } from "@/components/results-section";
+// import { ResultsSection } from "@/components/results-section";
 import { ScholarshipSection } from "@/components/scholarship-section";
-import { TestimonialsSection } from "@/components/testimonials-section";
+// import { TestimonialsSection } from "@/components/testimonials-section";
 import { WhatsAppButton } from "@/components/whatsapp-button";
 import { WhyChooseSection } from "@/components/why-choose-section";
 
@@ -23,7 +23,7 @@ export default function Home() {
       <ScholarshipSection />
       <WhyChooseSection/>
       {/* <ResultsSection/> */}
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
       <LocationsSection />
       <RegistrationSection />
       <ContactSection />

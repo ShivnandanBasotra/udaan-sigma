@@ -12,7 +12,7 @@ export function AboutSection() {
             </h2>
 
             <p className="text-pretty text-lg text-muted-foreground leading-relaxed mb-6">
-              For years, parents from Samba and Kathua were compelled to send their children far away in search of quality
+              For years, parents from Vijaypur, Samba, and Kathua were compelled to send their children far away in search of quality
               education—bearing heavy coaching fees, travel stress, hostel expenses, and still facing the absence of
               one-to-one mentorship. Every parent carried the same fear: that their child would be lost in the crowd.
             </p>
