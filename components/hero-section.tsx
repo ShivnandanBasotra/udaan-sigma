@@ -18,7 +18,7 @@ export function HeroSection() {
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-75"></span>
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-accent"></span>
               </span>
-              <span className="text-muted-foreground">Scholarship Test on 31 Jan & 1 Feb</span>
+              <span className="text-muted-foreground">21 Days Career Counselling Workshop from 11 March to 31 March</span>
             </div>
 
             <h1 
@@ -51,12 +51,12 @@ export function HeroSection() {
                 asChild
               >
                 <a 
-                  href="https://forms.gle/LoJzLTheoSzWJPnv7" 
+                  href="https://forms.gle/RrAR2kiHo3QAHL1NA" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   aria-label="Register for Scholarship Test at Udaan Sigma"
                 >
-                  Register for Scholarship Test
+                  Register for Counselling Workshop
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" aria-hidden="true" />
                 </a>
               </Button>

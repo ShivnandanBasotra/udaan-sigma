@@ -149,7 +149,7 @@ export function CoursesSection() {
               </CardContent>
               <CardFooter className="pt-0">
                 <Button className="w-full bg-primary hover:bg-primary/90" asChild>
-                  <a href="https://forms.gle/LoJzLTheoSzWJPnv7" target="_blank" rel="noopener noreferrer">
+                  <a href="https://forms.gle/RrAR2kiHo3QAHL1NA" target="_blank" rel="noopener noreferrer">
                     Enroll Now
                   </a>
                 </Button>

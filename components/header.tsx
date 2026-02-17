@@ -70,7 +70,7 @@ export function Header() {
               className="text-sm bg-destructive hover:bg-destructive/90 text-destructive-foreground font-semibold"
               asChild
             >
-              <a href="https://forms.gle/LoJzLTheoSzWJPnv7" target="_blank" rel="noopener noreferrer">
+              <a href="https://forms.gle/RrAR2kiHo3QAHL1NA" target="_blank" rel="noopener noreferrer">
                 Register Now
               </a>
             </Button>

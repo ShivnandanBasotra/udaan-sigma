@@ -17,7 +17,7 @@ export function RegistrationSection() {
               <div className="space-y-6">
                 <div className="aspect-video bg-gradient-to-br from-destructive/90 to-destructive rounded-lg flex items-center justify-center border border-destructive/30 shadow-lg">
                   <div className="text-center p-6">
-                    <a href="https://forms.gle/LoJzLTheoSzWJPnv7" target="_blank" rel="noopener noreferrer">
+                    <a href="https://forms.gle/RrAR2kiHo3QAHL1NA" target="_blank" rel="noopener noreferrer">
                       <Button
                         size="lg"
                         className="bg-white hover:bg-white/90 text-destructive px-16 py-6 text-lg font-semibold shadow-xl"
