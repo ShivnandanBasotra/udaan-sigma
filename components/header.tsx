@@ -47,10 +47,10 @@ export function Header() {
               Courses
             </button>
             <button
-              onClick={() => scrollToSection("scholarship")}
+              onClick={() => scrollToSection("workshop")}
               className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
             >
-              Scholarship
+              Workshop
             </button>
             {/* <button
               onClick={() => scrollToSection("results")}
@@ -108,10 +108,10 @@ export function Header() {
                 Courses
               </button>
               <button
-                onClick={() => scrollToSection("scholarship")}
+                onClick={() => scrollToSection("workshop")}
                 className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors text-left"
               >
-                Scholarship
+                 Workshop
               </button>
               <button
                 onClick={() => scrollToSection("results")}

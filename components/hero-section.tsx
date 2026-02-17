@@ -54,7 +54,7 @@ export function HeroSection() {
                   href="https://forms.gle/RrAR2kiHo3QAHL1NA" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  aria-label="Register for Scholarship Test at Udaan Sigma"
+                  aria-label="Register for Counselling Workshop at Udaan Sigma"
                 >
                   Register for Counselling Workshop
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" aria-hidden="true" />

@@ -36,8 +36,8 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#scholarship" className="text-muted-foreground hover:text-foreground transition-colors">
-                  Scholarship Test
+                <a href="#workshop" className="text-muted-foreground hover:text-foreground transition-colors">
+                  Workshop Registration
                 </a>
               </li>
               {/* <li>
