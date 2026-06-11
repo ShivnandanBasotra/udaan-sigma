@@ -51,7 +51,7 @@ export function HeroSection() {
                 asChild
               >
                 <a 
-                  href="https://forms.gle/RrAR2kiHo3QAHL1NA" 
+                  href="https://forms.gle/pv134PhWFdyDsUKW8" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   aria-label="Register for Counselling Workshop at Udaan Sigma"

@@ -7,7 +7,7 @@ import { HeroSection } from "@/components/hero-section";
 import { LocationsSection } from "@/components/locations-section";
 import { RegistrationSection } from "@/components/registration-section";
 // import { ResultsSection } from "@/components/results-section";
-// import { WorkshopSection } from "@/components/workshop-section";
+// fimport { WorkshopSection } from "@/components/workshop-section";
 // import { TestimonialsSection } from "@/components/testimonials-section";
 import { WhatsAppButton } from "@/components/whatsapp-button";
 import { WhyChooseSection } from "@/components/why-choose-section";

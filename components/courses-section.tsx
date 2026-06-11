@@ -8,11 +8,11 @@ import { useRef, useEffect } from "react"
 
 const courses = [
   {
-    title: "Foundation Course",
+    title: "Foundation Course for Juniors",
     description:
       "Build strong fundamentals for competitive exams from early grades. Comprehensive coverage of Science and Mathematics with conceptual clarity.",
-    level: "Class 8-10",
-    subjects: "Science, Mathematics",
+    level: "Class 5-7",
+    subjects: "Science, Mathematics and English Grammar",
     outcome: "Strong foundation for JEE/NEET preparation",
     image: "/foundation-students-learning-science-mathematics.jpg",
   },
@@ -149,7 +149,7 @@ export function CoursesSection() {
               </CardContent>
               <CardFooter className="pt-0">
                 <Button className="w-full bg-primary hover:bg-primary/90" asChild>
-                  <a href="https://forms.gle/RrAR2kiHo3QAHL1NA" target="_blank" rel="noopener noreferrer">
+                  <a href="https://forms.gle/pv134PhWFdyDsUKW8" target="_blank" rel="noopener noreferrer">
                     Enroll Now
                   </a>
                 </Button>

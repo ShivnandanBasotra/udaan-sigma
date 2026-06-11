@@ -91,7 +91,7 @@ export function WorkshopSection() {
             className="text-lg px-8 bg-destructive hover:bg-destructive/90 text-destructive-foreground font-semibold hover-lift"
             asChild
           >
-            <a href="https://forms.gle/RrAR2kiHo3QAHL1NA" target="_blank" rel="noopener noreferrer">
+            <a href="https://forms.gle/pv134PhWFdyDsUKW8" target="_blank" rel="noopener noreferrer">
               Register Now for Workshop
             </a>
           </Button>
