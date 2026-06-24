@@ -115,12 +115,12 @@ export function CoursesSection() {
               className="flex flex-col overflow-hidden border-border bg-card hover:shadow-xl transition-all duration-300"
               style={{ transformStyle: "preserve-3d" }}
             >
-              <div className="relative h-56 overflow-hidden bg-muted group">
-                <img
-                  src={course.image || "/placeholder.svg"}
-                  alt={course.title}
-                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
-                />
+              <div className="relative aspect-video overflow-hidden bg-muted group">
+  <img
+    src={course.image || "/placeholder.svg"}
+    alt={course.title}
+    className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-110"
+  />
                 <Badge className="absolute top-4 right-4 bg-primary text-primary-foreground border-0">
                   {course.level}
                 </Badge>
