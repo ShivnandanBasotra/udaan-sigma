@@ -14,7 +14,7 @@ const courses = [
     level: "Class 5-7",
     subjects: "Science, Mathematics and English Grammar",
     outcome: "Strong foundation for JEE/NEET preparation",
-    image: "/foundation-students-learning-science-mathematics.jpg",
+    image: "/5-7.jpeg",
   },
   {
     title: "IIT-JEE Foundation & Advanced",
@@ -23,7 +23,7 @@ const courses = [
     level: "Class 11-12",
     subjects: "Physics, Chemistry, Mathematics",
     outcome: "Crack JEE with top ranks",
-    image: "/iit-jee-physics-mathematics-preparation.jpg",
+    image: "/all.jpeg",
   },
   {
     title: "NEET Foundation & Preparation",
@@ -32,7 +32,7 @@ const courses = [
     level: "Class 11-12",
     subjects: "Biology, Physics, Chemistry",
     outcome: "Secure admission in top medical colleges",
-    image: "/neet-medical-biology-preparation.jpg",
+    image: "/neet.jpeg",
   },
   {
     title: "Olympiad Preparation",
@@ -41,7 +41,7 @@ const courses = [
     level: "Class 8-12",
     subjects: "Science, Mathematics",
     outcome: "Excel in national and international Olympiads",
-    image: "/young-students-foundation-mathematics-learning.jpg",
+    image: "/olymp.jpeg",
   },
 ]
 
