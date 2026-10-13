@@ -10,21 +10,21 @@ export function RegistrationSection() {
   return (
     <section className="bg-gradient-to-b from-primary/5 to-background py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <Card className="mx-auto max-w-5xl overflow-hidden border-primary/20 shadow-xl">
+        <Card className="mx-auto max-w-6xl overflow-hidden border-primary/20 bg-card/95 shadow-xl">
           <CardContent className="p-0">
-            <div className="grid items-stretch lg:grid-cols-[1.2fr_0.8fr]">
-              <div className="relative min-h-72 overflow-hidden bg-muted lg:min-h-full">
+            <div className="flex flex-col">
+              <div className="relative aspect-[2/1] w-full overflow-hidden bg-muted">
                 <Image
                   src={posterUrl}
                   alt="Udaan Sigma Super Scholar Challenge poster"
                   fill
-                  className="object-cover object-center"
-                  sizes="(max-width: 1024px) 100vw, 60vw"
+                  className="object-contain object-center"
+                  sizes="(max-width: 767px) 100vw, 62vw"
                   priority
                 />
               </div>
 
-              <div className="flex flex-col justify-center gap-6 p-8 sm:p-10">
+              <div className="flex flex-col justify-center gap-5 p-6 sm:p-8 lg:p-10">
                 <div className="flex flex-col gap-3">
                   <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary">Admissions open</p>
                   <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">US TSE Super Scholar Challenge</h2>
