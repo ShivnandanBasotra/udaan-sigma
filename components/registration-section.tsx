@@ -12,7 +12,7 @@ export function RegistrationSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <Card className="mx-auto max-w-6xl overflow-hidden border-primary/20 bg-card/95 shadow-xl">
           <CardContent className="p-0">
-            <div className="grid items-center md:grid-cols-[1.65fr_1fr]">
+            <div className="flex flex-col">
               <div className="relative aspect-[2/1] w-full overflow-hidden bg-muted">
                 <Image
                   src={posterUrl}
